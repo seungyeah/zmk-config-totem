@@ -88,7 +88,7 @@
             &kp Q  &kp W  &kp E         &kp R        &kp T               &kp Y      &kp U       &kp I      &kp O    &kp P
             &kp A  &kp S  &kp D         &kp F        &kp G               &kp H      &kp J       &kp K      &kp L    &lt 3 SEMICOLON
 &kp ESCAPE  &kp Z  &kp X  &kp C         &kp V        &kp B               &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH         &kp BSLH
-                          &kp LEFT_ALT  &lt 1 SPACE  &kp LEFT_COMMAND    &kp SPACE  &lt 2 RALT  &kp LSHFT
+                          &kp LEFT_ALT  &lt 1 SPACE  &kp LEFT_COMMAND    &kp SPACE  &lt 2 RCMD  &kp LSHFT
             >;
         };
 
@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &mkp MB5   &kp LBRC    &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &mkp MB4        &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp KP_MULTIPLY  &to 0
-                               &trans    &trans     &trans      &mo 2           &kp KP_N0       &trans
+        &kp ESC    &bt BT_CLR  &kp UP    &kp LG(LS(NUMBER_4))  &kp LBRC    &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
+        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT             &kp LBKT    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
+&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN             &kp LPAR    &mkp MB4        &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp KP_MULTIPLY  &to 0
+                               &trans    &trans                &trans      &mo 2           &kp KP_N0       &trans
             >;
         };
 
