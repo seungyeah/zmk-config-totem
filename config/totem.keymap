@@ -133,9 +133,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EQUAL  &kp N9        &kp N8        &kp N7        &trans              &trans           &kp F7  &kp F8  &kp F9  &kp F12
-        &kp MINUS  &kp NUMBER_6  &kp N5        &kp NUMBER_4  &trans              &trans           &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp N0     &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp GRAVE           &trans           &kp F1  &kp F2  &kp F3  &kp F10  &to 0
+        &kp GRAVE  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp MINUS           &trans           &kp F7  &kp F8  &kp F9  &kp F12
+        &none      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL           &trans           &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &trans           &kp F1  &kp F2  &kp F3  &kp F10  &to 0
                                  &kp LEFT_ALT  &trans        &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &trans  &trans
             >;
         };
