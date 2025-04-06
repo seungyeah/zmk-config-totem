@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none  &bt BT_CLR  &kp UP        &kp LG(LS(NUMBER_4))  &kp LBRC            &msc SCRL_UP     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
-        &none  &kp LEFT    &kp DOWN      &kp RIGHT             &kp LBKT            &msc SCRL_DOWN   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
-&trans  &none  &mkp LCLK   &mkp MCLK     &mkp RCLK             &kp LPAR            &mkp MB4         &mkp MB5        &none           &none            &kp KP_MULTIPLY  &to 0
-                           &kp LEFT_ALT  &trans                &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &mkp LCLK       &mkp RCLK
+        &kp TAB         &bt BT_CLR  &kp UP        &kp LG(LS(NUMBER_4))  &kp LBRC            &msc SCRL_UP     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
+        &kp LEFT_SHIFT  &kp LEFT    &kp DOWN      &kp RIGHT             &kp LBKT            &msc SCRL_DOWN   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
+&trans  &kp ESCAPE      &mkp LCLK   &mkp MCLK     &mkp RCLK             &kp LPAR            &mkp MB4         &mkp MB5        &none           &none            &kp KP_MULTIPLY  &to 0
+                                    &kp LEFT_ALT  &trans                &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &mkp LCLK       &mkp RCLK
             >;
         };
 
@@ -135,7 +135,7 @@
             bindings = <
         &kp GRAVE       &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp MINUS           &trans           &kp F7  &kp F8  &kp F9  &kp F12
         &kp LEFT_SHIFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL           &trans           &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &none           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &trans           &kp F1  &kp F2  &kp F3  &kp F10  &to 0
+&trans  &kp ESCAPE      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &trans           &kp F1  &kp F2  &kp F3  &kp F10  &to 0
                                       &kp LEFT_ALT  &trans        &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &trans  &trans
             >;
         };
