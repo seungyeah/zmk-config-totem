@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TAB         &bt BT_CLR  &kp UP        &kp LG(LS(NUMBER_4))  &kp LBRC            &msc SCRL_UP     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
-        &kp LEFT_SHIFT  &kp LEFT    &kp DOWN      &kp RIGHT             &kp LBKT            &msc SCRL_DOWN   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
-&trans  &kp ESCAPE      &mkp LCLK   &mkp MCLK     &mkp RCLK             &kp LPAR            &mkp MB4         &mkp MB5        &none           &none            &kp KP_MULTIPLY  &to 0
-                                    &kp LEFT_ALT  &trans                &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &mkp LCLK       &mkp RCLK
+        &kp TAB         &bt BT_CLR  &kp UP        &kp LG(LS(NUMBER_4))  &kp LBRC            &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp KP_PLUS
+        &kp LEFT_SHIFT  &kp LEFT    &kp DOWN      &kp RIGHT             &kp LBKT            &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp KP_MINUS
+&trans  &kp ESCAPE      &mkp LCLK   &mkp MCLK     &mkp RCLK             &kp LPAR            &mkp MB4        &mkp MB5        &none           &none            &kp KP_MULTIPLY  &to 0
+                                    &kp LEFT_ALT  &trans                &kp LEFT_COMMAND    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
