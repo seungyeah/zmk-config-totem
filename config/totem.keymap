@@ -17,7 +17,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // 기본 600 → 1500으로 조정
 #define ZMK_POINTING_DEFAULT_SCRL_VAL  20    // 기본 10  → 20으로 조정
-
 #define BASE 0
 #define NAV  1
 #define SYM  2
@@ -88,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                       &kp Q  &kp W  &kp E        &kp R        &kp T               &kp Y        &kp U    &kp I         &kp O    &kp P
-                       &kp A  &kp S  &kp D        &kp F        &kp G               &kp H        &kp J    &kp K         &kp L    &lt 3 SEMICOLON
-&mt LEFT_SHIFT ESCAPE  &kp Z  &kp X  &kp C        &kp V        &kp B               &kp N        &kp M    &kp COMMA     &kp DOT  &kp FSLH         &kp BSLH
-                                     &lt 2 LCTRL  &lt 1 SPACE  &kp LEFT_COMMAND    &lt 1 SPACE  &kp F18  &kp LEFT_ALT
+                       &kp Q  &kp W  &kp E        &kp R        &kp T               &kp Y        &kp U              &kp I      &kp O    &kp P
+                       &kp A  &kp S  &kp D        &kp F        &kp G               &kp H        &kp J              &kp K      &kp L    &lt 3 SEMICOLON
+&mt LEFT_SHIFT ESCAPE  &kp Z  &kp X  &kp C        &kp V        &kp B               &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH         &kp BSLH
+                                     &lt 2 LCTRL  &lt 1 SPACE  &kp LEFT_COMMAND    &lt 1 SPACE  &mt RIGHT_ALT F18  &kp RCTRL
             >;
         };
 
