@@ -15,6 +15,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // 기본 600 → 1500으로 조정
+#define ZMK_POINTING_DEFAULT_SCRL_VAL  20    // 기본 10  → 20으로 조정
+
 #define BASE 0
 #define NAV  1
 #define SYM  2
